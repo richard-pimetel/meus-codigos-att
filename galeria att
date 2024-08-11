@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js" defer></script>
+    <title>Galeria de Jogos</title>
+</head>
+<body>
+    <h1>Galeria de Jogos</h1>
+    <div class="gallery">
+
+
+        <a href="https://store.steampowered.com/app/2208920/Assassins_Creed_Valhalla/">
+
+            <img src="./img/ass.jpg" alt="ass">
+
+        </a>
+
+        <a href="https://store.epicgames.com/pt-BR/p/ea-sports-fc-24">
+
+            <img src="./img/fifa.jpg" alt="fifa">
+
+        </a>
+        
+        <a href="https://store.steampowered.com/app/1551360/Forza_Horizon_5/">
+
+        <img src="./img/forza.jpg" alt="forza">
+
+        </a>
+
+        <a href="https://store.epicgames.com/pt-BR/p/god-of-war-ragnarok-3ca641">
+
+        <img src="./img/god.jpg" alt="god">
+
+        </a>
+
+        <a href="https://store.epicgames.com/pt-BR/p/horizon-forbidden-west-complete-edition">
+
+        <img src="./img/horizon.jpg" alt="horizon">
+
+        </a>
+
+        <a href="https://store.steampowered.com/app/976310/Mortal_Kombat_11/">
+
+        <img src="./img/mortal.jpg" alt="mortal">
+
+        </a>  
+
+        <a href="https://store.epicgames.com/pt-BR/p/need-for-speed-heat-ccbf8d">
+
+        <img src="./img/need.jpg" alt="need">
+
+        </a>
+
+        <a href="https://store.epicgames.com/pt-BR/p/red-dead-redemption-2">
+
+        <img src="./img/red.jpg" alt="red">
+
+        </a>
+
+    </div>
+
+</body>
+</html>
+
+
+CSS 
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #494e7a;
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+h1 {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    padding: 180px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border: 9px solid #202020;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+
