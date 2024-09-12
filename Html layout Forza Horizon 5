@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <title>Forza Horizon Layout</title>
+    </head>
+<body>
+    <header>
+        <div class="logo"></div>
+        <nav class="menu">
+            <ul> 
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Carros</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Ajuda</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="conteudo">
+            <h1>Forza Horizon 5</h1>
+            <p>Experimente a adrenalina do Forza Horizon 5, explorando ambientes exuberantes, corridas intensas e uma vasta seleção de carros.</p>
+            <div class="acao">
+                <button>
+                    <a href="https://forzamotorsport.net" class="button">Saiba Mais</a>
+                </button>
+            </div>
+            <div class="social">
+                <div class="social-icon"><i class="fab fa-instagram"></i></div>
+                <div class="social-icon"><i class="fab fa-tiktok"></i></div>
+                <div class="social-icon"><i class="fab fa-youtube"></i></div>
+            </div>
+            
+        </div>
+        <div class="destaque"></div>
+    </main>
+    <footer>Desenvolvido por Richard Pimentel</footer>
+</body>
+</html>
