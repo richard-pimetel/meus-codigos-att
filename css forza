@@ -1,0 +1,130 @@
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    /* Tirar a linha dos links*/
+    text-decoration: none; 
+    /* Tirar a cor dos links */
+    color: inherit;
+}
+
+/* Tira a bolinha das listas */ 
+ul, ol, li{
+    list-style: none;
+}
+
+/*fim do reset*/
+body{
+    height: 100vh;
+    display: flex;
+    /* Deixar os objetos empilhados */
+    flex-direction: column;
+    padding-inline: 80px;
+    background-color: #121212; /* Fundo escuro para combinar com o tema de jogos de corrida */
+}
+header{
+    height: 200px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 96px;
+    width: 96px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d9/Forza_new_logo.png');
+    background-color: #fff;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.menu ul {
+    display: flex;
+    gap: 32px;
+    font-size: 32px;
+    color:#ffffff;
+}
+main{
+    flex-grow: 1;
+    display: flex;
+}
+
+.conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.conteudo h1{
+    font-size: 96px;
+    color: #F4C542; /* Cor dourada que remete a velocidade e exclusividade */
+}
+
+.conteudo p{
+    width: 80%;
+    font-size: 40px;
+    color: #FFFFFF; /* Texto branco para contraste */
+}
+.acao button{
+    height: 80px;
+    width: 300px;
+    background-color: #F4C542; /* Botão amarelo, cor tema */
+    color: black;
+    font-size: 32px;
+}
+.social {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icon {
+    height: 96px;
+    width: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 50%;
+    font-size: 48px;
+    color: #000;
+}
+
+.social-icon i {
+    color: #000;
+}
+
+.img1{
+    background-image: url('/path/to/forza-image1.jpg'); /* Substitui pela imagem do jogo */
+}
+.img2{
+    background-image: url('/path/to/forza-image2.jpg'); /* Substitui pela imagem do jogo */
+}
+.img3{
+    background-image: url('/path/to/forza-image3.jpg'); /* Substitui pela imagem do jogo */
+}
+.destaque{
+    width: 50%;
+    background-image: url('/path/to/forza-background.jpg'); /* Substitui pela imagem de fundo do jogo */
+    background-color: #fff;
+    background-size: cover; /* Ajuste para cobrir toda a área */
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF; /* Texto branco no rodapé */
+}
+.destaque {
+    width: 50%;
+    background-image: url('https://www.gamevicio.com/static/imagens_up/big/57/forza-horizon-5-recebe-sua-capa-oficial-e-novo-video-de-gameplay-com-8-minutos-056523.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
