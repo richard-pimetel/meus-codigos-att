@@ -93,24 +93,15 @@ main{
     color: #000;
 }
 
-.social-icon i {
-    color: #000;
-}
 
-.img1{
-    background-image: url('/path/to/forza-image1.jpg'); /* Substitui pela imagem do jogo */
-}
-.img2{
-    background-image: url('/path/to/forza-image2.jpg'); /* Substitui pela imagem do jogo */
-}
-.img3{
-    background-image: url('/path/to/forza-image3.jpg'); /* Substitui pela imagem do jogo */
-}
-.destaque{
+
+.destaque {
     width: 50%;
-    background-image: url('/path/to/forza-background.jpg'); /* Substitui pela imagem de fundo do jogo */
-    background-color: #fff;
-    background-size: cover; /* Ajuste para cobrir toda a área */
+    background-image: url('https://www.gamevicio.com/static/imagens_up/big/57/forza-horizon-5-recebe-sua-capa-oficial-e-novo-video-de-gameplay-com-8-minutos-056523.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 footer{
@@ -119,12 +110,4 @@ footer{
     justify-content: center;
     align-items: center;
     color: #FFFFFF; /* Texto branco no rodapé */
-}
-.destaque {
-    width: 50%;
-    background-image: url('https://www.gamevicio.com/static/imagens_up/big/57/forza-horizon-5-recebe-sua-capa-oficial-e-novo-video-de-gameplay-com-8-minutos-056523.webp');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
 }
