@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+button{
+    border: none;
+
+}
+
+ul, ol, li{
+    list-style: none;
+}
+body{
+    height: 115vh;
+    width: 100vw;
+    padding-right: 10vw;
+    padding-left: 7vw;
+    padding-top: 2vw;
+    background-image: url(./img/tela_de_fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #1D4E89;
+    padding: 5px;
+    height: 12%;
+}
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    font-size: 15px;
+}
+
+header button{
+    display: flex;
+    align-items: center;
+    background-color: #2F6AAE;
+    border-radius: 50px;
+    padding: 7px;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+main{
+    height: 100%;
+    display: flex;
+}
+
+.esquerda{
+    width: 35%;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+    padding:  25px;
+
+    
+}
+
+.cima{
+    height: 50%;
+    padding: 30px;
+}
+
+.cima h2{
+    font-size: 40px;
+}
+.cima p{
+    width: 69%;
+}
+.cima div{
+    display: flex;
+    width: 70%;
+}
+
+.cima div button{
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 15px;
+    width: 40%;
+    margin-inline: 1%;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.dowApp{
+    background-color: #2F6AAE;
+    border: 1px solid #000000;
+    color: aliceblue;
+}
+
+.More {
+    background-color: #ffffff;
+    border: 1px solid #2F6AAE;
+    color: #2F6AAE;
+}
+
+
+.baixo{
+    height: 40%;
+}
+
+.cartela{
+    width: 80%;
+    height: 40%;
+}
+
+.direita{
+    position: relative;
+    width: 50%;
+}
+
+.celular{
+    position: absolute;
+    height: 50%;
+    background-color: #4682b4;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    top: 44%;
+    left: 89%;
+}
